@@ -1,0 +1,39 @@
+{
+  "name": "fastify-custom-error",
+  "version": "1.0.0",
+  "description": "Customize your application errors out of the box",
+  "main": "index.js",
+  "scripts": {
+    "unit": "tap -J test/**/*.test.js",
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "npm run lint && npm run unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eomm/fastify-custom-error.git"
+  },
+  "keywords": [
+    "fastify",
+    "error",
+    "handler",
+    "validation",
+    "http-status"
+  ],
+  "author": "Manuel Spigolon <behemoth89@gmail.com> (https://github.com/Eomm)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eomm/fastify-custom-error/issues"
+  },
+  "homepage": "https://github.com/Eomm/fastify-custom-error#readme",
+  "devDependencies": {
+    "fastify": "^2.15.3",
+    "standard": "^16.0.2",
+    "tap": "^14.10.8"
+  },
+  "dependencies": {
+    "fast-json-stringify": "^1.21.0",
+    "fastify-plugin": "^1.6.1",
+    "flatstr": "^1.0.12"
+  }
+}
